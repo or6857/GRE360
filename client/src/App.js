@@ -5,9 +5,9 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import Signup from "./components/signup/signup.js";
 import Quiz from "./components/Quiz/Quiz.js";
 import Landing from "./components/Landing/landing.js";
+import Dashboard from "./components/Dashboard/dashboard.js";
 import { AccountBox } from "./components/accountBox";
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
             }
           />
           <Route exact path="/login" element={<AccountBox />} />
-          <Route exact path="/signup" element={<Signup />} />
+          <Route exact path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </Router>

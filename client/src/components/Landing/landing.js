@@ -25,9 +25,9 @@ const Landing = () => {
             <h2 className={styles.catchy}>Graduate Record Examination</h2>
             <br />
             <h4 className={styles.Lorem}>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente
-              ab nihil omnis minima, quia et velit. Molestiae praesentium sit
-              iste perferendis.
+              The Graduate Record Examinations is a standardized test that is an
+              admissions requirement for many graduate schools in the United
+              States and Canada and few in other countries.
             </h4>
             <br />
             <button className={styles.explore_btn} href="#services">
