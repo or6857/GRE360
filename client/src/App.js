@@ -5,6 +5,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
+import Signup from "./components/signup/signup.js";
 import Quiz from "./components/Quiz/Quiz.js";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
               )
             }
           />
+          <Signup />
         </Routes>
       </div>
     </Router>
