@@ -19,7 +19,8 @@
   font-weight: 700;
   color: #4481eb;
   display: inline-block;
-  text-align: center;
+  position: relative;
+  float: right;
 }
 
 .container_side_content {
@@ -86,6 +87,7 @@ input[type="password"]::placeholder {
 .txt {
   z-index: 500;
   margin-left: 0px;
+  position: relative;
 }
 
 .container_side_content {
@@ -107,7 +109,7 @@ input[type="password"]::placeholder {
 }
 
 .signup_btn {
-  margin-top: 400px;
+  margin-top: 420px;
   margin-left: 500px;
 }
 
