@@ -1,6 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./dashboard.module.css";
+import axios from "axios";
+
 const Dashboard = () => {
+  const [data, setData] = useState("");
+
+  useEffect(() => {
+    const getUserData = async () => {
+      const config = {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      };
+
+      try {
+        const { data } = await axios.get(
+          `http://localhost:5000/api/user/userDetails/${localStorage.getItem(
+            "userId"
+          )}`,
+          config
+        );
+        setData(data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    getUserData();
+  }, []);
+
   return (
     <>
       <div className={styles.container}>
@@ -10,6 +38,7 @@ const Dashboard = () => {
               <i className="fa fa-bars" aria-hidden="true"></i>
             </div>
             <div className={styles.heading_content}>
+              {console.log(data)}
               <h3>DASHBOARD</h3>
             </div>
           </div>
