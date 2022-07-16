@@ -1,0 +1,66 @@
+body {
+  overflow: hidden;
+  padding: 2vh 5vh;
+}
+
+.box {
+  padding: 2vh;
+}
+
+.Qimage {
+  width: fit-content;
+  margin: 5vh auto;
+}
+
+.section_count {
+  width: fit-content;
+  border: solid 1px black;
+  padding: 1vh 5vh;
+  border-radius: 5px;
+}
+
+.total_q {
+  float: right;
+}
+
+.q_no {
+  font-weight: 600;
+}
+
+.options {
+  border: solid 1px grey;
+  background-color: rgb(255, 255, 255);
+  margin: 2vh;
+  padding: 1vh;
+}
+
+.question_count {
+  margin: 5vh 0;
+}
+
+.q_box_box {
+  margin-top: 10vh;
+}
+
+.q_box {
+  border: solid 1px black;
+  width: fit-content;
+  display: inline-block;
+  padding: 2vh 3vh;
+  margin: 2vh;
+  border-radius: 2px;
+}
+
+.active {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.timer {
+  width: fit-content;
+  float: right;
+  padding: 3vh;
+  font-size: 20px;
+  font-weight: 700;
+}

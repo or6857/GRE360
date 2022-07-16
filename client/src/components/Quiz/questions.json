@@ -1,0 +1,156 @@
+{
+  "section_1": [
+    {
+      "questionText": "Please Select one correct answer.",
+      "section": "Verbal",
+      "image": "Q1.jpeg",
+      "answerOptions": [
+        { "answerText": "acknowledge . .ignored", "isCorrect": true },
+        { "answerText": "decrease .. verified", "isCorrect": false },
+        { "answerText": "tolerate .. accepted", "isCorrect": false },
+        { "answerText": "address .. eliminated", "isCorrect": false },
+        { "answerText": "explain .. discussed", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Please Select one correct answer.",
+      "section": "Verbal",
+      "image": "Q2.jpeg",
+      "answerOptions": [
+        { "answerText": "dismissal .. admirers", "isCorrect": false },
+        { "answerText": "adoration .. contemporaries", "isCorrect": true },
+        { "answerText": "disapproval. .readers", "isCorrect": false },
+        { "answerText": "indifference .. followers", "isCorrect": false },
+        { "answerText": "approbation .. precursors", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Please Select one correct answer.",
+      "section": "Verbal",
+      "image": "Q3.jpeg",
+      "answerOptions": [
+        { "answerText": "perfected .. hinder", "isCorrect": false },
+        { "answerText": "exhausted . .interest", "isCorrect": true },
+        { "answerText": "prolonged .. require", "isCorrect": false },
+        { "answerText": "prevented .. challenge", "isCorrect": false },
+        { "answerText": "delayed .. benefit", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Please Select one correct answer.",
+      "section": "Verbal",
+      "image": "Q4.jpeg",
+      "answerOptions": [
+        { "answerText": "similar", "isCorrect": false },
+        { "answerText": "most", "isCorrect": false },
+        { "answerText": "dangerous", "isCorrect": false },
+        { "answerText": "uncommon", "isCorrect": false },
+        { "answerText": "alternative", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Please Select one correct answer.",
+      "section": "Verbal",
+      "image": "Q5.jpeg",
+      "answerOptions": [
+        { "answerText": "foreseen", "isCorrect": false },
+        { "answerText": "attacked", "isCorrect": false },
+        { "answerText": "ascertained", "isCorrect": false },
+        { "answerText": "exacerbated", "isCorrect": true },
+        { "answerText": "analyzed", "isCorrect": false }
+      ]
+    }
+  ],
+  "section_2": [
+    {
+      "questionText": "Please Select one correct answer.",
+      "section": "Maths",
+      "image": "2_Q1.jpeg",
+      "answerOptions": [
+        {
+          "answerText": "Green, yellow, magenta, red, purple, orange",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Magenta, green, purple, red, orange, yellow",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Magenta, red, purple, yellow, green, orange",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Orange, yellow, red, magenta, green, purple",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Red, purple, magenta, yellow, green, orange",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Please Select one correct answer.",
+      "section": "Maths",
+      "image": "2_Q2.jpeg",
+      "answerOptions": [
+        { "answerText": "1", "isCorrect": false },
+        { "answerText": "2", "isCorrect": false },
+        { "answerText": "3", "isCorrect": true },
+        { "answerText": "5", "isCorrect": false },
+        { "answerText": "6", "isCorrect": false }
+      ]
+    },
+    {
+      "questionText": "Please Select one correct answer.",
+      "section": "Maths",
+      "image": "2_Q3.jpeg",
+      "answerOptions": [
+        { "answerText": "Green", "isCorrect": false },
+        { "answerText": "Magenta", "isCorrect": false },
+        { "answerText": "Purple", "isCorrect": false },
+        { "answerText": "Red", "isCorrect": false },
+        { "answerText": "Yellow", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Please Select one correct answer.",
+      "section": "Maths",
+      "image": "2_Q4.jpeg",
+      "answerOptions": [
+        { "answerText": "1", "isCorrect": false },
+        { "answerText": "2", "isCorrect": false },
+        { "answerText": "3", "isCorrect": false },
+        { "answerText": "5", "isCorrect": false },
+        { "answerText": "6", "isCorrect": true }
+      ]
+    },
+    {
+      "questionText": "Please Select one correct answer.",
+      "section": "Maths",
+      "image": "2_Q5.jpeg",
+      "answerOptions": [
+        {
+          "answerText": "The green ball is under a lower-numbered cup than the yellow ball.",
+          "isCorrect": false
+        },
+        {
+          "answerText": "The orange ball is under a lower-numbered cup than the green ball.",
+          "isCorrect": false
+        },
+        {
+          "answerText": "The purple ball is under a lower-numbered cup than the green ball.",
+          "isCorrect": true
+        },
+        {
+          "answerText": "The purple ball is under a lower-numbered cup than the red ball.",
+          "isCorrect": false
+        },
+        {
+          "answerText": "The red ball is under a lower-numbered cup than the yellow ball.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
