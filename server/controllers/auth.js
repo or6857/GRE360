@@ -3,14 +3,18 @@ const crypto = require("crypto");
 const ErrorResponse = require("../utils/errorResponse");
 
 exports.register = async (req, res, next) => {
-  const { name, email, password, phone } = req.body;
+  const { name, email, password, sop, lor, cgpa, research, toefl } = req.body;
 
   try {
     const user = await User.create({
       name,
       email,
       password,
-      phone,
+      sop,
+      toefl,
+      lor,
+      cgpa,
+      research,
     });
     sendToken(user, 200, res);
 

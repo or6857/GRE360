@@ -24,10 +24,6 @@ const UserSchema = new mongoose.Schema(
       minlength: 6,
       select: false,
     },
-    toefl: {
-      type: Number,
-      required: "{PATH} is required!",
-    },
     sop: {
       type: Number,
       required: "{PATH} is required!",
@@ -41,6 +37,10 @@ const UserSchema = new mongoose.Schema(
       required: "{PATH} is required!",
     },
     research: {
+      type: Number,
+      required: "{PATH} is required!",
+    },
+    toefl: {
       type: Number,
       required: "{PATH} is required!",
     },

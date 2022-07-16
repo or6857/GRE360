@@ -8,7 +8,7 @@ import Login from "../quizAssests/login.jpg";
 import styles from "./index.module.css";
 
 const BoxContainer = styled.div`
-  width: 280px;
+  width: 300px;
   min-height: 550px;
   display: flex;
   flex-direction: column;

@@ -28,7 +28,6 @@ function App() {
             }
           />
           <Route exact path="/login" element={<AccountBox />} />
-          <Route exact path="/signup" element={<Signup />} />
         </Routes>
       </div>
     </Router>
