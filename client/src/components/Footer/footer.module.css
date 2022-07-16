@@ -1,0 +1,68 @@
+.footer {
+  background-color: #000;
+  border-top: 8px solid black;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  margin-top: 5%;
+}
+
+.content {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+  margin-top: 5%;
+}
+
+.home {
+  grid-row: 2;
+}
+
+.contact {
+  grid-row: 3;
+}
+
+.loginfooter {
+  grid-row: 4;
+}
+
+.register {
+  grid-row: 5;
+}
+
+.icons {
+  grid-column: 5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.icon_space_one {
+  grid-row: 3;
+  grid-column: 1;
+  fill: #838383;
+  stroke-width: 1px;
+  stroke: black;
+}
+
+.icon_space_two {
+  grid-row: 3;
+  grid-column: 2;
+  fill: #838383;
+  stroke-width: 1px;
+  stroke: black;
+}
+
+.icon_space_three {
+  grid-row: 3;
+  grid-column: 3;
+  fill: #838383;
+  stroke-width: 1px;
+  stroke: black;
+}
