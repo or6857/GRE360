@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 import Quiz from "./components/Quiz/Quiz.js";
 
@@ -7,7 +12,17 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route exact path="/quiz" element={<Quiz />} />
+          <Route
+            exact
+            path="/quiz"
+            element={
+              localStorage.getItem("authToken") ? (
+                <Quiz />
+              ) : (
+                <Navigate to="/login" />
+              )
+            }
+          />
         </Routes>
       </div>
     </Router>
