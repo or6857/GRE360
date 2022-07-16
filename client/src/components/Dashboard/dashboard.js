@@ -85,7 +85,10 @@ const Dashboard = () => {
             <div className={styles.box1}></div>
             <div className={styles.box1}></div>
             <div className={styles.box1}></div>
-            <div className={styles.box1}></div>
+            <div className={styles.box4}>
+              Next Test{" "}
+              <i class="fas fa-arrow-right" style={{ color: "white" }}></i>
+            </div>
           </div>
           <div className={styles.main_item2_heading}>
             <h2>My Courses</h2>

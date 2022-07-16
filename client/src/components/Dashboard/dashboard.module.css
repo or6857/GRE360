@@ -17,7 +17,9 @@
 
 .profile {
   background-color: whitesmoke;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: -1px 3px 9px 0px rgba(140, 140, 140, 0.63);
+  -moz-box-shadow: -1px 3px 9px 0px rgba(140, 140, 140, 0.63);
+  box-shadow: -1px 3px 9px 0px rgba(140, 140, 140, 0.63);
   display: grid;
   grid-template-rows: 9% 91%;
 }
@@ -28,7 +30,9 @@
   background-color: rgb(255, 255, 255);
   border-bottom: 2px solid black;
   padding: 5% 0;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: -1px 3px 9px 0px rgba(140, 140, 140, 0.63);
+  -moz-box-shadow: -1px 3px 9px 0px rgba(140, 140, 140, 0.63);
+  box-shadow: -1px 3px 9px 0px rgba(140, 140, 140, 0.63);
 }
 
 .dashHeading h3 {
@@ -133,7 +137,23 @@
   border: none;
   border-radius: 15px;
   background-color: white;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: -1px 3px 9px 0px rgba(140, 140, 140, 0.63);
+  -moz-box-shadow: -1px 3px 9px 0px rgba(140, 140, 140, 0.63);
+  box-shadow: -1px 3px 9px 0px rgba(140, 140, 140, 0.63);
+}
+
+.box4 {
+  border: none;
+  border-radius: 15px;
+  box-shadow: -1px 3px 9px 0px rgba(140, 140, 140, 0.63);
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  line-height: 200px;
+  background-image: url("../quizAssests/tile_background_green.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1, 1);
 }
 
 .main_item2_heading {
