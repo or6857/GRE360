@@ -64,6 +64,7 @@
 .item1 h4 {
   font-size: 1rem;
   cursor: pointer;
+  text-align: left;
 }
 
 .item1 i {
@@ -81,12 +82,15 @@
 .item2 {
   display: grid;
   grid-template-columns: 40% auto;
-  padding-top: 75%;
+  padding-top: 95%;
   cursor: pointer;
 }
 
 .item2 h4 {
   font-size: 1rem;
+  cursor: pointer;
+  text-align: left;
+
 }
 
 .item2 h4:hover {

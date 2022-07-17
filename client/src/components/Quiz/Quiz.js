@@ -100,54 +100,75 @@ export default function Quiz() {
       {selectedSection === "section_1" ? (
         <>
           <div className={`${styles.box} col-md-9`}>
-            <div className={`${styles.timer}`}>
-              <div><h5>Time Left : </h5></div>
-              <div className={styles.timer_content}>{timer}</div> 
-              </div>
-            <div className={`${styles.question_section}`}>
+            <div className={styles.box_heading}>
               <div className={`${styles.section_count}`}>
-                <button>{Data.section_1[currentQuestion].section}</button>
+                  <button>{Data.section_1[currentQuestion].section}</button>
               </div>
-              <div className={`${styles.question_count}`}>
-                <div className={`${styles.total_q}`}>
-                  Total Number of questions done - <b>{totalQuestions}</b>
-                </div>
-                <span className={`${styles.q_no}`}>
-                  Question {currentQuestion + 1}/{Data.section_1.length}
-                </span>
-                <div className={`${styles.Qimage}`}>
-                  <img
-                    src={require(`../quizAssests/${Data.section_1[currentQuestion].image}`)}
-                    alt="Question"
-                  />
-                </div>
+
+              <div className={`${styles.timer}`}>
+                <div><h5>TimeLeft:{timer} </h5></div>
               </div>
+            </div>
+
+
+            <div className={`${styles.question_section}`}>
+
+              <div className={`${styles.q_no}`}>
+                Question {currentQuestion + 1}/{Data.section_1.length}
+              </div>
+
+              <div className={`${styles.Qimage}`}>
+                <img
+                  src={require(`../quizAssests/${Data.section_1[currentQuestion].image}`)}
+                  alt="Question"
+                />
+              </div>
+            </div>
+            
+
+            <div className={styles.answer_content}>
+
               <div className={`${styles.question_text}`}>
                 {Data.section_1[currentQuestion].questionText}
               </div>
-            </div>
-            <div className={`${styles.answer_section}`}>
-              {Data.section_1[currentQuestion].answerOptions.map(
-                (answerOption) => (
-                  <button
-                    onClick={() =>
-                      handleAnswerOptionClick(answerOption.isCorrect)
-                    }
-                    className={`${styles.options}`}
-                  >
-                    {answerOption.answerText}
-                  </button>
-                )
-              )}
+
+              <div className={`${styles.answer_section}`}>
+                {Data.section_1[currentQuestion].answerOptions.map(
+                  (answerOption) => (
+                    <button
+                      onClick={() =>
+                        handleAnswerOptionClick(answerOption.isCorrect)
+                      }
+                      className={`${styles.options}`}
+                    >
+                      {answerOption.answerText}
+                    </button>
+                  )
+                )}
+              </div>
+
             </div>
           </div>
+
+
           <div className={`${styles.q_box_box} col-md-3`}>
+            <div className={`${styles.total_q}`}>
+                    <h3>Total Number of questions done - <b>{totalQuestions}</b></h3>
+            </div>
+            <div className={styles.q_box_box_box}>
             {questions.map((question) => (
+            
               <div className={`${styles.q_box} `} ref={myContainer}>
                 {question}
               </div>
+          
             ))}
+            </div>
+            
+            
           </div>
+          
+          
         </>
       ) : null}
       {selectedSection === "section_2" ? (
