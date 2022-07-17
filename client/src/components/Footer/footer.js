@@ -6,16 +6,16 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className={styles.content}>
         <div className={styles.home}>
-          <a href="#">HOME</a>
+          <a href="/">HOME</a>
         </div>
         <div className={styles.contact}>
           <a href="#">CONTACT US</a>
         </div>
         <div className={styles.loginfooter}>
-          <a href="#">LOGIN</a>
+          <a href="/login">LOGIN</a>
         </div>
         <div className={styles.register}>
-          <a href="#">REGISTER</a>
+          <a href="/login">REGISTER</a>
         </div>
       </div>
       <div className="icons">

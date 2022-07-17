@@ -111,12 +111,24 @@ const Dashboard = () => {
             </div>
           </div>
           <div className={styles.main_item1_content}>
-            <div className={styles.box1}></div>
-            <div className={styles.box1}></div>
-            <div className={styles.box1}></div>
+            <div className={styles.box1}>
+              <h3>Name </h3>
+              <h3>Toefl Score </h3>
+              <h3>LOR's </h3>
+              <h3>SOP Rating </h3>
+              <h3>CGPA </h3>
+              <h3>Research Papers </h3>
+            </div>
+            <div className={styles.box2}></div>
+            <div className={styles.box3}></div>
             <div className={styles.box4}>
-              Next Test{" "}
-              <i class="fas fa-arrow-right" style={{ color: "white" }}></i>
+              <div className={styles.box4_content} style={{ color: "white" }}>
+                Next Test{" "}
+                <i
+                  className="fas fa-arrow-right"
+                  style={{ color: "white" }}
+                ></i>
+              </div>
             </div>
           </div>
           <div className={styles.main_item2_heading}>
