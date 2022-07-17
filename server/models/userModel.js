@@ -44,6 +44,12 @@ const UserSchema = new mongoose.Schema(
       type: Number,
       required: "{PATH} is required!",
     },
+    score_1: {
+      type: Number,
+    },
+    score_2: {
+      type: Number,
+    },
   },
   { timestamps: true }
 );
