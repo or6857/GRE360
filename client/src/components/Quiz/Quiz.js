@@ -7,6 +7,7 @@ export default function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
+  const [score_2, setScore_2] = useState(0);
   const [sectionC, setSectionC] = useState(0);
   const [current_section, set_current_section] = useState("");
   const [totalQuestions, setTotalQuestions] = useState(0);
@@ -78,9 +79,12 @@ export default function Quiz() {
   };
 
   const handleAnswerOptionClick = (isCorrect) => {
-    if (isCorrect) {
+    if (isCorrect && selectedSection === "section_1") {
       setScore(score + 1);
-      console.log(myContainer.current);
+    }
+
+    if (isCorrect && selectedSection === "section_2") {
+      setScore_2(score_2 + 1);
     }
 
     const nextQuestion = currentQuestion + 1;
@@ -198,6 +202,7 @@ export default function Quiz() {
         <div>
           <h1>This is the ENDGAME bitch!!!</h1>
           <h4>{score}</h4>
+          <h4>{score_2}</h4>
         </div>
       ) : null}
     </div>
