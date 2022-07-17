@@ -1,5 +1,8 @@
 .box {
-  padding: 2vh;
+  position: absolute;
+  height: 100%;
+  width: 75%;
+  background-color: rgb(229, 249, 253)
 }
 
 .Qimage {
@@ -8,18 +11,22 @@
 }
 
 .section_count {
+  background-color: aqua;
   width: fit-content;
   border: solid 1px black;
-  padding: 1vh 5vh;
   border-radius: 5px;
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19); */
+  
 }
 
 .total_q {
   float: right;
+  background-color: grey;
 }
 
 .q_no {
   font-weight: 600;
+  background-color: aquamarine;
 }
 
 .options {
@@ -27,23 +34,37 @@
   background-color: rgb(255, 255, 255);
   margin: 2vh;
   padding: 1vh;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.options:hover{
+  background-color: #fff;
+  transform: translateY(-10%);
 }
 
 .question_count {
   margin: 5vh 0;
+  background-color: palevioletred;
 }
 
 .q_box_box {
-  margin-top: 10vh;
+  position: absolute;
+  left: 74%;
+  height: 100%;
+  width: 26%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #fff;
 }
 
 .q_box {
   border: solid 1px black;
   width: fit-content;
   display: inline-block;
-  padding: 2vh 3vh;
-  margin: 2vh;
-  border-radius: 2px;
+  padding: 3vh 4vh;
+  margin: 1vh;
+  border-radius: 5px;
 }
 
 .active {
@@ -58,4 +79,20 @@
   padding: 3vh;
   font-size: 20px;
   font-weight: 700;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.timer h5{
+  font-size: 1.29rem;
+  font-weight: 900;
+}
+
+.timer_content{
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+  bottom: 3%;
 }

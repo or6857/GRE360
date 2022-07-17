@@ -104,10 +104,13 @@ export default function Quiz() {
       {selectedSection === "section_1" ? (
         <>
           <div className={`${styles.box} col-md-9`}>
-            <div className={`${styles.timer}`}>{timer}</div>
+            <div className={`${styles.timer}`}>
+              <div><h5>Time Left : </h5></div>
+              <div className={styles.timer_content}>{timer}</div> 
+              </div>
             <div className={`${styles.question_section}`}>
               <div className={`${styles.section_count}`}>
-                {Data.section_1[currentQuestion].section}
+                <button>{Data.section_1[currentQuestion].section}</button>
               </div>
               <div className={`${styles.question_count}`}>
                 <div className={`${styles.total_q}`}>
@@ -200,7 +203,7 @@ export default function Quiz() {
       ) : null}
       {selectedSection === "results" ? (
         <div>
-          <h1>This is the ENDGAME bitch!!!</h1>
+          <h1>Sparsh and Raghav under a tree ,K I S S I N G!!!!</h1>
           <h4>{score}</h4>
           <h4>{score_2}</h4>
         </div>
