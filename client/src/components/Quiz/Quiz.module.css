@@ -1,150 +1,10 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700;800;900&display=swap');
-
-*{
-  font-family: 'Cormorant SC', 'Roboto', sans-serif;
-}
-=======
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
->>>>>>> e46e511ab0ebe1171e0672c97c799973943d7c85
 
 .box {
   position: absolute;
   height: 100%;
   width: 75%;
-  background-color: #fff;
   background-color: rgb(229, 249, 253);
-}
-
-.box_heading{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  border-bottom: 5px solid #444;
-}
-
-
-.timer {
-  padding-top: 4%;
-  padding-left: 60%;
-  width: fit-content;
-  float: right;
-  font-size: 20px;
-  font-weight: 700;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  
-  border: solid 1px black;
-  border-radius: 5px;
-  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19); */
-}
-
-.timer h5{
-  font-size: 1.29rem;
-  font-weight: 900;
-}
-
-.section_count{
-  padding: 2% 4%;
-}
-
-.section_count button{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.05), 0 6px 14px 0 rgba(0,0,0,0.19);
-  padding: 8px 50px;
-  border-radius: 5px;
-}
-
-.question_section{
-  position: relative;
-  height: 40%;
-  display: grid;
-  grid-template-rows: 20% 80%;
-  border-bottom: 2px solid #444;
-  margin-left: 1%;
-}
-
-.q_no {
-  padding-top: 1%;
-  padding-left: 1%;
-  font-weight: 600;
-}
-
-.Qimage {
-  padding-left: 30%;
-  padding-top: 4%;
-  width: fit-content;
-  
-}
-
-.question_text{
-  background-color: blue;
-  margin-top: 2%;
-  padding-left: 2%;
-}
-
-
-.options {
-  border: solid 1px grey;
-  background-color: rgb(255, 255, 255);
-  margin: 2vh;
-  padding: 1vh;
-  transition: 0.3s;
-  cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.options:hover {
-  background-color: #fff;
-  transform: translateY(-10%);
-}
-
-
-
-.q_box_box {
-  position: absolute;
-  left: 74%;
-  height: 100%;
-  width: 26%;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  background-color: rgb(243, 253, 255);
-  display: grid;
-  grid-template-rows: 7% 93%;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: #fff;
-}
-
-
-.total_q {
-  color: #444;
-  border-bottom: 2px solid #666;
-}
-
-.total_q h3 {
-  padding-top: 4% ;
-  font-size: 1rem;
-  text-align: center;
-  color: #444;
-}
-
-.q_box_box_box{
-  padding-top: 1rem;
-}
-
-
-.q_box {
-  border: solid 4px #444;
-  width: fit-content;
-  display: inline-block;
-  padding: 1rem 2rem;
-  margin: 0.5rem;
-  border-radius: 5px;
-  color: #444;
-}
-
-
-
-.active {
-  color: white;
-  border: none;
 }
 
 .timer {
@@ -168,6 +28,98 @@
   text-align: center;
   position: relative;
   bottom: 3%;
+}
+
+.Qimage {
+  width: fit-content;
+  
+}
+
+.section_count {
+  background-color: aqua;
+  width: fit-content;
+  border: solid 1px black;
+  border-radius: 5px;
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19); */
+}
+
+
+.q_no {
+  font-weight: 600;
+  background-color: aquamarine;
+}
+
+.options {
+  border: solid 1px grey;
+  background-color: rgb(255, 255, 255);
+  margin: 2vh;
+  padding: 1vh;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.options:hover {
+  background-color: #fff;
+  transform: translateY(-10%);
+}
+
+.question_count {
+  background-color: palevioletred;
+}
+
+.q_box_box {
+  position: absolute;
+  left: 74%;
+  height: 100%;
+  width: 26%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  display: grid;
+  grid-template-rows: 8% 77% 15%;
+}
+
+.total_q {
+  margin-top: 4.5%;
+  float: right;
+  text-align: center;
+  border-bottom: 2px solid #444;
+}
+
+
+.q_box_box_box{
+  margin-top: 4.5%;
+}
+
+.q_box {
+  border: solid 4px #444;
+  width: fit-content;
+  display: inline-block;
+  padding: 1.25rem 2rem;
+  margin: 0.75rem;
+  border-radius: 5px;
+}
+
+.end_btn{
+  margin-left: 21.75% ;
+  margin-top: 8%;
+}
+
+.btn_end{
+  padding: 0.75rem 3rem;
+  text-align: center;
+  background-color: rgb(199, 38, 38);
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 7px;
+}
+
+
+
+
+.active {
+  color: white;
+  border: none;
 }
 
 .results {
