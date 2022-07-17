@@ -132,6 +132,8 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-column-gap: 3%;
+  padding: -1vh 2vh;
+  margin-top: -4vh;
 }
 
 .box1 {
@@ -212,12 +214,12 @@
 
 .main_item2_heading h2 {
   font-size: 1.7rem;
-  padding-top: 3%;
   font-weight: 700;
 }
 
 .main_item2_content {
   display: grid;
+  margin-top: -9vh;
 }
 
 .box2 {
